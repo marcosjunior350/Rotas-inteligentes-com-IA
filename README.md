@@ -51,10 +51,10 @@ O diagrama criado está na pasta "img". Os nós (círculos) simbolizam o restaur
 
 A solução implementada demonstrou ser eficaz na otimização das entregas para a "Sabor Express". Para um cenário com 8 pedidos e 2 entregadores, o algoritmo K-Means dividiu os pedidos em dois clusters geográficos coesos (Cluster 0 na região Sudoeste e Cluster 1 na Nordeste), conforme visualizado no gráfico de dispersão.
 
-Em seguida, a otimização de rota com A* calculou os percursos mais eficientes para cada cluster, resultando em:
+Para tornar a análise mais realista, defini uma escala onde cada ponto de peso no grafo equivale a 100 metros. Com base nisso, a otimização de rota com A* calculou os percursos mais eficientes para cada cluster, resultando em:
 
-> **Rota do Entregador 1:** Custo total de distância de 160.00.</br>
-> **Rota do Entregador 2:** Custo total de distância de 170.00.</br>
+> **Rota do Entregador 1:** Distância total de 16.00 km.</br>
+> **Rota do Entregador 2:** Distância total de 17.00 km.</br>
 
 Essa abordagem automatizada elimina a ineficiência do planejamento manual e fornece rotas claras e otimizadas, reduzindo a distância total percorrida.
 
