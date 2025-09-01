@@ -1,0 +1,13 @@
+origem,destino,peso
+restaurante,A,10
+restaurante,D,15
+A,pedido_1,5
+A,pedido_3,7
+A,pedido_7,8
+A,B,20
+B,pedido_5,30
+D,C,25
+C,pedido_2,10
+C,pedido_4,8
+C,pedido_6,12
+C,pedido_8,15
